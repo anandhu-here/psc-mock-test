@@ -1,0 +1,39 @@
+@import './var.scss';
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-inline: 10rem;
+    height: $nav-height;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1rem 0.1rem 15rem black;
+    @include sm{
+        padding-inline: 3rem;
+    }
+    &-left{
+        color: rgb(45, 125, 90);
+        font-size: 3rem;
+        font-weight: 800;
+        font-family: 'Architects Daughter', cursive;
+        text-decoration: none;
+    }
+    &-right{
+        font-size: 1.4rem;
+        display: flex;
+        @include sm{
+            display: none;
+        }
+        &-item{
+            margin-right: 1.4rem;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            color: white;
+            font-weight: 700;
+            border-radius: 10rem;
+            background-color: rgb(45, 125, 90);
+        }
+    }
+}

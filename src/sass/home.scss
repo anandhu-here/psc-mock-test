@@ -1,0 +1,28 @@
+@import './var.scss';
+@import './reset.scss';
+.home{
+    height: calc(100vh - #{$nav-height});
+    display: flex;
+    &-left{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        width: 30%;
+        padding: 2rem;
+        @include sm{
+            display: none;
+        }
+    }
+    &-right{
+        display: flex;
+        width: 70%;
+        height: 100%;
+        align-items: center;
+        padding: 2rem;
+        justify-content: center;
+        @include sm{
+            width: 100%;
+            padding: 1rem;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 2rem;
+  height: 90%;
+  border-radius: 2rem;
+  background: linear-gradient(rgba(39, 40, 39, 0.776) 50%, #c4cacd 90%);
+  color: white; }
+  .auth-tab {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white; }
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .register-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem; }
+  .register-div {
+    display: flex;
+    flex-direction: column;
+    width: 80%; }
+    .register-div-email {
+      height: 3.4rem;
+      margin-bottom: 1rem;
+      border-radius: 10rem;
+      border: 0.2px solid #2d7d5a;
+      background-color: rgba(0, 0, 0, 0.297); }
+      .register-div-email:focus {
+        border: none;
+        outline: none;
+        color: white;
+        text-align: center; }
+      .register-div-email::placeholder {
+        text-align: center; }
+    .register-div-submit {
+      height: 3.4rem;
+      margin-top: 2rem;
+      font-weight: 700;
+      background-color: #2d7d5a;
+      border: none;
+      color: white;
+      border-radius: 10rem; }
+      .register-div-submit:focus {
+        border: none;
+        outline: none; }
