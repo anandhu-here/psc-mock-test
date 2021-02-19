@@ -1,1 +1,1 @@
-"# psc-mock-test" 
+Mock test for PSC exam
